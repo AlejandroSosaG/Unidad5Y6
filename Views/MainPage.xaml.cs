@@ -20,5 +20,9 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+        private void OnCounterHolded(object sender, EventArgs e)
+        {
+            Barra.Progress = 0;
+        }
     }
 }

@@ -20,8 +20,8 @@
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
-            <Slider x:Name="Slider"></Slider>
-            <ProgressBar x:Name="Barra"></ProgressBar>
+            <Slider x:Name="Slider" Holded="OnCounterHolded"></Slider>
+            <ProgressBar x:Name="Barra" Progress="0.5" ProgressColor="Aqua"></ProgressBar>
             <Label
                 Text="Welcome to .NET Multi-platform App UI"
                 SemanticProperties.HeadingLevel="Level2"
