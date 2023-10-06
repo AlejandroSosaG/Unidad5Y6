@@ -20,9 +20,9 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
-        private void OnCounterHolded(object sender, EventArgs e)
+        private void OnSliderValueChanged(object sender, EventArgs e)
         {
-            Barra.Progress = 0;
+            Barra.Progress = Slider.Value / 100;
         }
     }
 }
